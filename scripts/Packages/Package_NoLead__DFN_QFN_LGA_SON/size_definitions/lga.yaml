@@ -303,3 +303,30 @@ Broadcom_LGA-8_2.0x2.0mm:
   pitch: 0.53
   num_pins_x: 0
   num_pins_y: 4
+
+Kionix_LGA-12_2x2x0.9mm_P0.35x0.375mm:
+  device_type: 'LGA'
+  size_source: 'http://kionixfs.kionix.com/en/document/TN008-PCB-Design-Guidelines-for-2x2-LGA-Sensors.pdf#page=4'
+  library: 'Package_LGA'
+  manufacturer: 'Kionix'
+  use_name_format: 'LGA'
+  #ipc_density: 'least'
+  ipc_class: 'qfn_pull_back'
+  body_size_x:
+    nominal: 2.0
+    tolerance: 0.05
+  body_size_y:
+    nominal: 2.0
+    tolerance: 0.05
+  overall_height: 0.9
+  lead_width:
+    nominal: 0.25
+    tolerance: 0.05
+  lead_len:
+    nominal: 0.275
+    tolerance: 0.05
+  lead_to_edge:
+    nominal: 0.1
+  pitch: 0.5
+  num_pins_x: 2
+  num_pins_y: 4
